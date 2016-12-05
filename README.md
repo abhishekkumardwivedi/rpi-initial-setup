@@ -52,4 +52,20 @@ And reboot the device for best:
 sudo reboot
 ```
 
+# To work on NodeJS
+
+## Install NPM
+
+There are different approach to install npm but the one which is most convenient
+```
+wget https://www.npmjs.com/install.sh && chmod a+x ./install.sh && sudo ./install.sh
+```
+More installation options can be seen at https://github.com/npm/npm
+
+## Install any package to Node-RED
+Below is an example of installing additional package in Node-RED. Change with package name you want to install.
+```
+cd ~/.node-red/node_modules
+npm install node-red-contrib-sitewhere
+```
 
